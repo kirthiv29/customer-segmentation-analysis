@@ -8,7 +8,7 @@ Convert your ML pipeline script into a fully interactive web app using Streamlit
 
 ```
 your-project/
-├── app.py
+├── csamp2.py
 └── requirements.txt
 ```
 
@@ -35,13 +35,13 @@ python -m pip install -r requirements.txt
 ### Step 2 — Run the app
 
 ```bash
-python -m streamlit run app.py
+python -m streamlit run csamp2.py
 ```
 
 Or with full path if needed:
 
 ```bash
-C:\Python313\python.exe -m streamlit run app.py
+C:\Python313\python.exe -m streamlit run csamp2.py
 ```
 
 > ✅ **Always use `python -m streamlit`** instead of the `streamlit.exe` launcher to avoid the *"Unable to create process"* error on Windows.
@@ -61,7 +61,7 @@ The system cannot find the file specified.
 The `.exe` launcher points to a broken Python path. Bypass it entirely:
 
 ```bash
-python -m streamlit run app.py
+python -m streamlit run csamp2.py
 ```
 
 ---
